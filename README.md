@@ -19,9 +19,28 @@ Caso de negocio simulado de una empresa de distribución de alimentos en Chile, 
 - **Power BI** → Dashboard con visualizaciones interactivas y KPIs
 - **Word** → Informe ejecutivo con análisis de negocio
 
+## 🖥️ Dashboard en Power BI
+
+El archivo `Freshbox.pbix` requiere Power BI Desktop. Estas son las tres páginas del dashboard:
+
+### 1. Reporte de ingresos
+KPIs generales (pedidos, tasa de rechazo, margen e ingreso entregado), ingreso por cliente, evolución diaria y distribución por categoría, con filtros por categoría, mes y zona.
+
+![Reporte de ingresos](imagenes/dashboard_ingresos.png)
+
+### 2. Rendimiento de repartidores e ingresos por zona
+Ingreso entregado y calificación promedio por repartidor, kilos y pedidos entregados, e ingreso por zona.
+
+![Rendimiento de repartidores e ingresos por zona](imagenes/dashboard_repartidores_zonas.png)
+
+### 3. Reporte de metas
+Cumplimiento de metas de ingreso y de entregas por zona y mes, y comparación entre meta e ingreso real.
+
+![Reporte de metas](imagenes/dashboard_metas.png)
+
 ## 📊 Hallazgos clave
 
-- Cumplimiento de metas de ingreso: **42,6%** ($6,9M vs meta de $16,2M)
+- Cumplimiento de metas de ingreso: **42,4%** ($6.860.900 vs meta de $16.200.000)
 - Cumplimiento de entregas: **36,3%** (41 de 113 metas acumuladas)
 - Ingresos perdidos por rechazos: **$1.566.200** + $156.000 en flete
 - Margen operativo total: **$2.507.250** (~36% sobre ingresos entregados)
